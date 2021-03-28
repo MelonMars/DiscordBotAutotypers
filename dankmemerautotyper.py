@@ -8,6 +8,9 @@ def main():
     pc.copy("pls beg")
     pg.hotkey("ctrl", "v")
     pg.press("enter")
+    pc.copy("pls fish")
+    pg.hotkey("ctrl", "v")
+    pg.press("enter")
     time.sleep(45)
 
 for i in range(reps):
