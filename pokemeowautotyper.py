@@ -19,3 +19,7 @@ def main():
     pc.copy(";shop buy pokeball {}".format(pokeballs))
     pg.hotkey("ctrl", "v")
     pg.press("enter")
+
+for i in range(reps):
+    main()
+    
