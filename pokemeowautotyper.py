@@ -8,4 +8,14 @@ print("WARNING! If you have too little money to buy more pokeballs, the bot will
 
 def main():
     for i in range(pokeballs):
-        
+        pc.copy(";pokemon")
+        pg.hotkey("ctrl", "v")
+        pg.press("enter")
+        time.sleep(1)
+        pc.copy("pb")
+        pg.hotkey("ctrl", "v")
+        pg.press("enter")
+        time.sleep(5)
+    pc.copy(";shop buy pokeball {}".format(pokeballs))
+    pg.hotkey("ctrl", "v")
+    pg.press("enter")
