@@ -19,6 +19,19 @@ def main():
     pg.hotkey("ctrl", "v")
     pg.press("enter")
     time.sleep(45)
+    pc.copy("pls pm")
+    pg.hotkey("ctrl", "v")
+    pg.press("enter")
+    pc.copy("f")
+    pg.hotkey("ctrl", "v")
+    pg.press("enter")
+    pc.copy("pls search")
+    pg.hotkey("ctrl", "v")
+    pg.press("enter")
+    pc.copy("air")
+    pg.hotkey("ctrl", "v")
+    pg.press("enter")
 
 for i in range(reps):
     main()
+    
